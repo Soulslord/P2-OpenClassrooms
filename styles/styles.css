@@ -351,7 +351,6 @@ i.grey {
   position: absolute;
   width: 96%;
   height: 92%;
-
   display: flex;
 }
 
@@ -454,19 +453,21 @@ footer {
   max-width: 1400px;
   min-height: 200px;
   background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #div-in-footer {
   background: none;
   display: flex;
-  justify-content: space-around;
-  width: 90%;
-  padding: 0 40px;
+  width: 85%;
 }
 
 #div-in-footer div {
-  width: 25%;
+  width: 30%;
   height: 100%;
+  margin: 0 2.5%;
 }
 
 #div-in-footer div h3 {
@@ -477,7 +478,7 @@ footer {
   display: block;
   text-decoration: none;
   color: black;
-  margin: 5px auto;
+  margin: 12px auto;
   font-size: 17px;
 }
 
