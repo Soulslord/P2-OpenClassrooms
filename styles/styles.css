@@ -371,12 +371,8 @@ i.grey {
 }
 
 
-.div-card-most-popular
-  div
-  h3,
-  .div-card-most-popular
-  div
-  p {
+.div-card-most-popular div h3,
+.div-card-most-popular div p {
   margin-left: 10px;
 }
 
@@ -415,11 +411,9 @@ i.grey {
   background: white;
   position: relative;
   display: flex;
-
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-
   overflow: hidden;
   box-shadow: 0px 0px 6px 0px #0808082e;
 }
