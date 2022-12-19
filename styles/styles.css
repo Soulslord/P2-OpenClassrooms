@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 *,
 ::before,
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header,
@@ -19,7 +19,6 @@ footer {
   max-width: 1400px;
   margin: auto;
 }
-
 
 #main {
   margin: 10px auto 50px;
@@ -101,8 +100,6 @@ nav div {
   grid-area: activities;
 }
 
-
-
 #h2-filter {
   margin: 10px 0;
 }
@@ -167,7 +164,6 @@ nav div {
 .location .btn-icon {
   display: none;
 }
-
 
 .filters {
   max-width: 1400px;
@@ -257,8 +253,6 @@ i.grey {
   padding: 20px;
 }
 
-
-
 .accomodation-Marseille {
   width: 60%;
   position: relative;
@@ -276,7 +270,6 @@ i.grey {
   margin-bottom: 30px;
 }
 
-
 .div-grid-accomodation-Marseille a {
   position: relative;
   display: flex;
@@ -290,14 +283,12 @@ i.grey {
   padding: 5px;
 }
 
-
 .div-grid-accomodation-Marseille a div {
   position: absolute;
   border-radius: 20px;
   width: 96%;
   height: 96%;
 }
-
 
 .div-grid-accomodation-Marseille a div img {
   width: 100%;
@@ -346,14 +337,12 @@ i.grey {
   box-shadow: 0px 0px 6px 0px #0808082e;
 }
 
-
 .div-card-most-popular {
   position: absolute;
   width: 96%;
   height: 92%;
   display: flex;
 }
-
 
 .div-card-most-popular img {
   object-fit: cover;
@@ -362,7 +351,6 @@ i.grey {
   border-radius: 20px 0px 0px 20px;
 }
 
-
 .div-card-most-popular div {
   margin-left: 2%;
   width: 60%;
@@ -370,19 +358,16 @@ i.grey {
   position: relative;
 }
 
-
 .div-card-most-popular div h3,
 .div-card-most-popular div p {
   margin-left: 10px;
 }
-
 
 .div-card-most-popular div span {
   position: absolute;
   left: 10px;
   bottom: 0;
 }
-
 
 .div-card-most-popular div p {
   margin-top: 5px;
@@ -393,7 +378,7 @@ i.grey {
   margin: 0px auto;
 }
 
-#h2-activities-in-Marseille{
+#h2-activities-in-Marseille {
   padding: 10px;
 }
 
@@ -435,7 +420,6 @@ i.grey {
   height: 65px;
   padding: 5%;
 }
-
 
 .scale-up-click:hover {
   transition: ease 0.4s;
@@ -514,7 +498,6 @@ footer {
     width: 95%;
   }
 
-
   .div-card-most-popular img {
     width: 30%;
     object-fit: cover;
@@ -525,21 +508,21 @@ footer {
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
-
   h3 {
     font-size: 16px;
   }
   .accomodation-Marseille,
-  .most-popular, .main-activities-in-marseille {
+  .most-popular,
+  .main-activities-in-marseille {
     width: 95%;
     padding: 2.5%;
   }
-  
+
   ul.btns-liste li {
     padding: 10px 24px 10px 3px;
     margin: 10px 0 0 10px;
   }
-  
+
   ul.btns-liste li i {
     background-color: white;
     color: #0065fc;
@@ -550,13 +533,13 @@ footer {
   .accomodation-and-most-populars {
     margin: 25px auto;
   }
-  
+
   .div-grid-accomodation-Marseille {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
   }
 
-  #h2-activities-in-Marseille{
+  #h2-activities-in-Marseille {
     padding: 10px 0;
   }
 
@@ -566,15 +549,9 @@ footer {
   .main-activities-in-marseille {
     display: grid;
   }
-
-
-
 }
 
 @media screen and (max-width: 768px) {
-
-
-  
   h3 {
     font-size: 16px;
   }
@@ -682,7 +659,6 @@ footer {
 
   .accomodation-Marseille,
   .most-popular {
-
     width: 100%;
     padding: 10px 0;
   }
@@ -691,13 +667,12 @@ footer {
     flex-direction: column;
   }
 
-  .accomodation-Marseille h2, .most-popular h2, .accomodation-Marseille .show-more h3{
+  .accomodation-Marseille h2,
+  .most-popular h2,
+  .accomodation-Marseille .show-more h3 {
     margin-bottom: 0;
-    padding:  10px 20px;
+    padding: 10px 20px;
   }
-
-
-
 
   .div-grid-accomodation-Marseille {
     grid-template-columns: 100%;
@@ -710,11 +685,11 @@ footer {
   .grid-activities-in-Marseille {
     height: 1000px;
   }
-  .grid-activities-in-Marseille a{
+  .grid-activities-in-Marseille a {
     margin: 15px 0;
     width: 96%;
   }
-  .grid-activities-in-Marseille a h3{
+  .grid-activities-in-Marseille a h3 {
     font-size: 20px;
     margin: 0;
   }
