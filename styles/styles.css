@@ -590,7 +590,7 @@ footer {
   #h2-most-populars,
   #h2-activities-in-Marseille {
     width: 97%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .grid-activities-in-Marseille {
